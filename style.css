@@ -44,7 +44,7 @@ ul {
 }
 
 li {
-    background-color: #000000;
+    background-color: #000000e0;
     border: 2px solid transparent;
     border-image: linear-gradient(90deg, rgba(129, 51, 255, 1) 0%, rgba(255, 126, 6, 1) 100%);
     border-image-slice: 1;
@@ -55,9 +55,15 @@ li {
 img {
     width: 100%;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(0.9);
 }
 
 p {
+    text-align: center;
     color: #ff7e06;
 }
 
