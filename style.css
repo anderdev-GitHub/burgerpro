@@ -62,6 +62,10 @@ button:hover .function-color {
     color: #ff7e06;
 }
 
+button:active {
+    transform: scale(1.2);
+}
+
 ul {
     list-style: none;
     display: grid;
