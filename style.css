@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url('./assets/background-burgerpro.png') no-repeat center/cover;
+    background: url('./assets/background-burgerpro.png') no-repeat center/cover fixed;
     min-height: 100vh;
 }
 
