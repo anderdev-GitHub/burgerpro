@@ -10,6 +10,24 @@ body {
     min-height: 100vh;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000e0;
+    padding: 20px;
+}
+
+header p {
+    color: #ffffff;
+}
+
+.burgerpro-logo {
+    width: 200px;
+    padding: 20px;
+}
+
 .container-buttons {
     margin: 30px 0;
     display: flex;
@@ -22,17 +40,26 @@ button {
     background-color: #ff7e06;
     border: none;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
     padding: 10px;
     cursor: pointer;
     transition: transform 0.3s;
-    width: 110px;
+    width: 145px;
     text-transform: uppercase;
 }
 
 button:hover {
     background-color:#8133ff;
     transform: scale(1.1);
+    color: #000000;
+}
+
+.function-color {
+    color: #6200ff;
+}
+
+button:hover .function-color {
+    color: #ff7e06;
 }
 
 ul {
@@ -41,6 +68,7 @@ ul {
     grid-template-columns: 200px 200px 200px;
     gap: 20px;
     justify-content: center;
+    padding: 50px;
 }
 
 li {
@@ -52,13 +80,13 @@ li {
     padding: 5px;
 }
 
-img {
+.hamburgueres {
     width: 100%;
     border-radius: 5px;
     cursor: pointer;
 }
 
-img:hover {
+.hamburgueres:hover {
     transform: scale(0.9);
 }
 
