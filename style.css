@@ -34,6 +34,7 @@ header p {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 button {
@@ -44,7 +45,7 @@ button {
     padding: 5px;
     cursor: pointer;
     transition: transform 0.3s;
-    width: 145px;
+    width: 150px;
     text-transform: uppercase;
 }
 
@@ -67,12 +68,14 @@ button:active {
 }
 
 ul {
+    margin: auto;
     list-style: none;
+    max-width: 700px;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
     justify-content: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 li {
@@ -81,7 +84,8 @@ li {
     border-image: linear-gradient(90deg, rgba(129, 51, 255, 1) 0%, rgba(255, 126, 6, 1) 100%);
     border-image-slice: 1;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    overflow:hidden;
 }
 
 .hamburgueres {
@@ -91,15 +95,53 @@ li {
 }
 
 .hamburgueres:hover {
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
-p {
+li p {
     text-align: center;
     color: #ff7e06;
+    margin-top: 5px;
 }
 
 .hamburguer-price {
     font-weight: bold;
     color: #8133ff;
+}
+
+footer {
+    padding: 24px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #8133ff;
+}
+
+footer span {
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer strong {
+    color: #ff0000;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+    color: #ff7e06;
+}
+
+footer a ion-icon[name="logo-instagram"] {
+    display: inline-block;
+    vertical-align: -10%;
+}
+
+footer a:hover {
+    font-weight: 600;
+    background: -webkit-linear-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
