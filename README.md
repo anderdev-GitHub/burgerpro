@@ -19,7 +19,9 @@
 
 <br>
 
+<p align="center">
 <img alt="Layout" src="./assets/demo-BurgerPro.gif">
+</p>
 <br>
 
 
