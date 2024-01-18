@@ -63,7 +63,7 @@ Para começar, basta abrir a pagina no seu navegador da web. Você pode fazer se
 
 ## :balance_scale: Licença
 
-Este projeto é de código aberto e está sob a licença Licença MIT. Você é livre para usar, modificar e distribuir este projeto de acordo com os termos da licença.
+Este projeto é de código aberto e está sob a Licença MIT. Você é livre para usar, modificar e distribuir este projeto de acordo com os termos da licença.
 
 ## :man_technologist: Autor
 
